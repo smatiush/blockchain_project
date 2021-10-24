@@ -1,0 +1,2 @@
+address:0x35E22ac5Ee2d3fbb8e28Db8E779e3b3a3340E4Cc
+ reserve: {'TRIPS': 900.0, 'BUSD': 75.0, 'timestamp': 1614263336}
