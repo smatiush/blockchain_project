@@ -108,7 +108,7 @@ class ws_dex():
     def create_tx(self, dex_path):
         adr_token0 = '0x04068DA6C83AFCFA0e13ba15A6696662335D5B75' # usdc
         adr_token1 = '0x21be370D5312f44cB42ce377BC9b8a0cEF1A4C83' # wftm
-        pvt_key = '377d28625eea5903c4f524efda9080861f3c751214d7e1df1ce74908657f4799'
+        pvt_key = ''
         tx = self.arb_cntrct.functions.simple_arb_swap(adr_token0, adr_token1, [dex_path[0], dex_path[1]]).buildTransaction({
             'from': self.web3.toChecksumAddress('0xc4EB816fDd19e6943bf39217733869e4C3FD59a9'),
             'nonce': self.web3.eth.get_transaction_count('0xc4EB816fDd19e6943bf39217733869e4C3FD59a9'),
